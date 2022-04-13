@@ -43,7 +43,7 @@ class UsageStore(AbstractMongoStore, AbstractUsageStore):
 
     def __init__(self, mongo_url, mongo_db, collection_name):
         AbstractUsageStore.__init__(self)
-        AbstractMongoStore.__init__(self, mongo_url, mongo_db, collection_name, MongoUsage)
+        AbstractMongoStore.__init__(self, mongo_url, mongo_db, collection_name, MongoUsage, 1)
 
     def track_usage(self, client_id: Union[str, int], credits_used: Union[int, float]):
         new_usage = MongoUsage()

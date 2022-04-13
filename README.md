@@ -2,6 +2,14 @@
 
 Python MongoDB Store Implementation for Tracking [API Billing](https://github.com/ilfrich/frappy-api-billing) Usage.
 
+## Installation
+
+```shell
+pip install frappymongoapibilling --user
+```
+
+This will also install `pbu` which is required to operate the store implementation.
+
 ## Usage
 
 ```python
