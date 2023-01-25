@@ -1,2 +1,2 @@
-pbu>=0.7.6
+pbumongo>=1.0.0
 frappyapibilling

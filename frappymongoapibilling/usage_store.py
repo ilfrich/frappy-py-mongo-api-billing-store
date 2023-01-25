@@ -1,7 +1,7 @@
 from datetime import datetime, time
 from typing import List, Union, Optional
 from frappyapibilling import Usage, AbstractUsageStore
-from pbu import AbstractMongoStore, AbstractMongoDocument
+from pbumongo import AbstractMongoStore, AbstractMongoDocument
 
 
 class MongoUsage(Usage, AbstractMongoDocument):
